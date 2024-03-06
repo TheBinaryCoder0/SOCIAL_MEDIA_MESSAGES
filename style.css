@@ -1,0 +1,278 @@
+*{  
+    font-family: "Protest Revolution";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+
+  #main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:#AED6F1;
+  }
+
+  /* #main #background{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(""); */
+    /* background-size: cover; */
+    /* background-position: center; */ 
+
+  
+  #left{
+    width: 5%;
+    height: 100%;
+    padding: 10px 10px;
+    border: 1px solid black;
+  }
+
+  .button{
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    background-color: #12be5d7f ;
+  }
+
+  #right{
+    display: flex;
+    width: 95%;
+    height: 100%;
+  }
+
+  #right_left{
+    width: 45%;
+    height: 100%;
+    position: relative;
+  }
+
+  #profileswitch{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #12be5d7f ;
+  }
+
+  #profileswitch i{
+    font-size: 26px;
+  }
+
+  #edit{
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #messagesheading{
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    top: 9%;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #users{
+    width: 100%;
+    height: 84%;
+    position: absolute;
+    top: 16%;
+    border: 1px solid ;
+  }
+
+  .user{
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background-color: #12be5d7f ;
+  }
+
+  #user1{
+    left: 2%;
+    top: 2%;
+  }
+
+  #user2{
+    left: 2%;
+    top: 13%;
+  }
+
+  #user3{
+    left: 2%;
+    top: 24%;
+  }
+
+  #user4{
+    left: 2%;
+    top: 35%;
+  }
+
+  #user5{
+    left: 2%;
+    top: 46%;
+  }
+
+  #user6{
+    left: 2%;
+    top: 57%;
+  }
+
+  #user7{
+    left: 2%;
+    top: 68%;
+  }
+
+  #user8{
+    left: 2%;
+    top: 79%;
+  }
+
+  #right_right{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    border: 1px solid black;
+  }
+
+  #userid{
+    height: 5%;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #messages{  
+    width: 100%;
+    height: 85%;
+    /* background-image: url("https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    position: absolute;
+    top: 8%;
+  }
+
+  .message{
+    width: 96%;
+    height: 5%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    background-color: #12be5d7f ;
+  }
+
+  #message1{
+    left: 2%;
+    top: 1%;
+  }
+
+  #message2{
+    left: 2%;
+    top: 7%;
+  }
+
+  #message3{
+    left: 2%;
+    top: 13%;
+  }
+
+  #message4{
+    left: 2%;
+    top: 20%;
+  }
+
+  #message5{
+    left: 2%;
+    top: 27%;
+  }
+
+  #message6{
+    left: 2%;
+    top: 34%;
+  }
+
+  #message7{
+    left: 2%;
+    top: 41%;
+  }
+
+  #message8{
+    left: 2%;
+    top: 48%;
+  }
+
+  #message9{
+    left: 2%;
+    top: 55%;
+  }
+
+  #type_bar{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+  }
+
+  #icon1{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #icon2{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #icon3{
+    width: 6%;
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #input_text{
+    width: 99%;
+    height: 100%;
+    left: 15%;
+    border-radius: 5%;
+    /* border: 1px solid black; */
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+  }
